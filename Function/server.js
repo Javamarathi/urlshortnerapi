@@ -4,7 +4,7 @@ dotenv.config();
 const APIKEY=process.env.API_KEY;
 const headers = {
   "Content-Type": "application/json",
-  apikey: APIKEY,
+  apikey: "9682d4218966491a86261bf36ffd22f3",
  };
 
 const shorten = async (url) => {
